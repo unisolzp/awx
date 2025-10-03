@@ -3,4 +3,4 @@
   tasks:
   
   - name: Create files archive, copy to cloud storage
-    shell: curl -s http://46.101.96.24/files_archive.sh | bash
+    shell: curl -s https://backup.wsnonline.dk/scripts/files_archive.sh | bash
