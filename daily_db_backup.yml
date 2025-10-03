@@ -3,4 +3,4 @@
   tasks:
   
   - name: Dump and archivation db's, copy to cloud storage
-    shell: curl -s http://46.101.96.24/db_dump.sh | bash
+    shell: curl -s https://backup.wsnonline.dk/scripts/db_dump.sh | bash
