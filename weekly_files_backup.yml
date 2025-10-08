@@ -5,4 +5,5 @@
   - name: Create files archive, copy to cloud storage
     shell: curl -s https://backup.wsnonline.dk/scripts/files_archive.sh | bash
     register: curl_work
+    ignore_errors: yes
     failed_when: curl_work.rc != 1 and curl_work.rc != 0
